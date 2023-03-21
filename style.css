@@ -1,0 +1,183 @@
+/* Global Styles */
+
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin: 0;
+}
+
+a {
+	color: #ffa500;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+	margin-top: 70px;
+}
+
+#intro {
+	background-color: #f5deb3;
+	padding: 100px;
+	text-align: center;
+}
+
+#intro h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#intro p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+#intro a {
+	background-color: #ffa500;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease;
+}
+
+#intro a:hover {
+	background-color: #ff8c00;
+}
+
+#featured-items {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.item {
+	flex: 1;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.item img {
+	border-radius: 50%;
+	max-width: 200px;
+}
+
+.item h3 {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.item p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#about-us {
+	background-color: #f5deb3;
+	padding: 100px;
+	text-align: center;
+}
+
+#about-us h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#about-us p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+#about-us a {
+	background-color: #ffa500;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease;
+}
+
+#about-us a:hover {
+	background-color: #ff8c00;
+}
+
+/* Footer */
+
+footer {
+	background-color: #e2e1de;
+	color: #fff;
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact h3, .social-media h3, .customer-reviews h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.contact p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.social-media ul {
+	display: flex;
+	justify-content: center;
+}
+
+.social-media li {
+	margin: 0 10px;
+}
+
+.customer-reviews ul {
+	list-style: none;
